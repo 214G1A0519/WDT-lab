@@ -1,0 +1,163 @@
+main.html
+
+<html>
+<frameset rows="15%,78.5%,6.5%">
+<frame src="head.html" scrolling=0 name="1">
+<frameset cols="25%,75%">
+<frame src="list.html" name="2">
+<frame src="" name="3">
+</frameset>
+<frame src="footer.html" name ="4">
+</frameset>
+</html>
+
+head.html
+
+<html>
+<body style="background-color:#6affed">
+<i><h1 style="color:black" align="center"> ALL IN ONE STORE </h1>
+</i>
+</body>
+</html>
+
+list.html
+
+<html>
+<head>
+<style>
+body{
+	background:#f0ffff
+}
+li{
+	color:brown
+}
+h1{
+	background:brown; color:white
+}
+</style>
+</head>
+<body>
+<h1 align="center" > Categories </h1>
+<ul align="center">
+<h3><li><a href="fashion.html" target="3"> Fashion </a></li>
+<li><a href="electronics.html" target="3"> Electronics </a></li>
+<li><a href="grocery.html" target="3"> Grocery </a></li>
+</h3></ul>
+</body>
+</html>
+
+fashion.html
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1> Fashion</h1>
+<table>
+<tr>
+<th><img src="cap.jpg" ></th>
+<th><img src="belt.jpg"></th>
+<th><img src="jacket.jpg"></th>
+</tr>
+<tr>
+<th>Cap<br> 200</th>
+<th> Belt <br> 700 </th>
+<th> Jocket <br> 2000</th>
+</tr>
+<tr>
+<td> <button type="button"> Buy Now </button> &nbsp <button type="button"> Add to Cart </button></td>
+<td> <button type="button"> Buy Now </button> &nbsp <button type="button"> Add to Cart </button></td>
+<td> <button type="button"> Buy Now </button> &nbsp <button type="button"> Add to Cart </button></td>
+</tr>
+</table>
+</body>
+</html>
+
+electronics.html
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Electronics</h1>
+<table>
+<tr>
+<th><img src="datacards.jpg" ></th>
+<th><img src="router.jpg"></th>
+<th><img src="webcam.jpg"></th>
+</tr>
+<tr>
+<th>Data Card<br> 800</th>
+<th> Router <br> 2500 </th>
+<th> WebCam <br> 5000</th>
+</tr>
+<tr>
+<td> <button type="button"> Buy Now </button> &nbsp <button type="button"> Add to Cart </button></td>
+<td> <button type="button"> Buy Now </button> &nbsp <button type="button"> Add to Cart </button></td>
+<td> <button type="button"> Buy Now </button> &nbsp <button type="button"> Add to Cart </button></td>
+</tr>
+</table>
+</body>
+</html>
+
+grocery.html
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Grocery</h1>
+<table>
+<tr>
+<th><img src="detol.jpg" ></th>
+<th><img src="santoor.jpg"></th>
+<th><img src="eggs.jpg"></th>
+</tr>
+<tr>
+<th>Dettol<br> 75</th>
+<th> Santoor <br> 45 </th>
+<th> Eggs <br>100</th>
+</tr>
+<tr>
+<td> <button type="button"> Buy Now </button> &nbsp <button type="button"> Add to Cart </button></td>
+<td> <button type="button"> Buy Now </button> &nbsp <button type="button"> Add to Cart </button></td>
+<td> <button type="button"> Buy Now </button> &nbsp <button type="button"> Add to Cart </button></td>
+</tr>
+</table>
+</body>
+</html>
+
+footer.html
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+.footer{
+	position:fixed;left:0;bottom:0;width:100%;text-align:center;color:black;background:lightgreen;
+}
+</style>
+</head>
+<body>
+<div class="footer">
+<p align="center">&copy; A Dhana Lakshmi -- All rights reserved </p>
+</div>
+</body>
+</html>
+
+style.css
+
+img{
+	border-radius:4px;height:250px;width:250px;padding:40px;
+}
+table,tr,th{
+	text-align:center
+}
+
+button{
+	background-color:yellow;padding:15px 32px;border:none;
+	text-align:center;color:black;font-size:16px;
+}

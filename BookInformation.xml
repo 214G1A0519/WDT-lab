@@ -1,0 +1,19 @@
+<?xml version= "1.0"?>
+<books>
+<book1>
+<title> Web Development </title>
+<author> Paul Deitel </author>
+<ISBN> 26300 </ISBN>
+<publisher> Pearson </publisher>
+<edition> 5th Edition </edition>
+<price> 250 </price>
+</book1>
+<book2>
+<title> Python </title>
+<author> Jason Gilmore </author>
+<ISBN> 34500 </ISBN>
+<publisher> Oxford </publisher>
+<edition> 5th Edition </edition>
+<price> 300 </price>
+</book2>
+</books>
